@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css"/> 
+	<link rel="shortcut icon" href="assets/imagens/logotitle.png">
+	<link rel="stylesheet" type="text/css" href="assets/css/css.css">
+
+	<title>Arthur Fernandes</title>
+
+
+</head>	
+
+
+<body> 
+	
+	<div><img id="logofundo" src="assets/imagens/logo.png"></div>		    <!-- Logo "Arthur Fernandes"-->
+	
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm p-3 mb-5 bg-white rounded">
+
+			<a id="textinfo" class="navbar-brand">Informações</a>		<!-- Informações - menu-->
+
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+				<span class="navbar-toggler-icon"></span> 							<!-- Botão menu para mobile-->
+			</button>
+
+			<div class="navbar-collapse collapse" id="navbarMenu">				 
+				<div class="navbar-nav"></div>	
+			</div>
+
+			<div class="navbar-collapse collapse " id="navbarMenu">						
+				
+				<ul id="textmenu" class="nav navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="modal" href="#clnsobremodal">sobre</a>			<!-- Informações - menu-->						
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="modal" href="#clnestudomodal">estudos</a>       <!-- estudo - menu-->
+					</li>
+					<li class="nav-item">	
+						<a class="nav-link" data-toggle="modal" href="#clncertificadosmodal">certificados</a> 	<!-- certificados - menu-->
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="modal" href="#clncursosmodal">cursos</a> 		<!-- cursos - menu-->
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="modal" href="#clncontatomodal">contato</a> 		<!-- contato - menu-->
+					</li>
+					
+				</ul>
+			</div>
+		</nav>
+	</div>
+	
+	<div class="" id="conteudosinfo">									<!-- Div que contém os conteúdos-->
+		<hr>
+		<div class="container" style="">
+			<div class="" style="width: 100%; height: 50px;"></div> 	<!-- Margem da div-->
+			
+			<div class="container">
+				<div id="coluna1" class="row text-center" >
+					<div id="clnsobre" class="col-sm"><h3 id="h3">Sobre</h3><hr><br><p>Sobre informações pessoais, local de nascimento, naturalidade e coisas semelhantes.	</p>
+						<button class="btn btn-dark" data-toggle="modal" data-target="#clnsobremodal">Confira</button>
+						<div class="modal fade" id="clnsobremodal">
+							<div class="modal-dialog modal-dialog-centered modal-lg">
+								<div class="modal-content">
+									<div class="modal-header"><h5 class="modal-title">Sobre</h5></div>
+									<div class="modal-body">
+										<p>Brasileiro, 21 anos e morando no estado de São Paulo.<br>
+											Atualmente, estudando Técnologo de Análise e Desenvolvimento de Sistemas na Universidade Nove de Julho, com previsão de formação para Junho de 2019.<br>
+											No momento, procurando a primeira oportunidade no mercado de trabalho no meio da tecnologia.
+										</p>
+									</div>
+									<div class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal"><span></span>Fechar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div> <!-- Conteúdo sobre-->
+
+					<div id="clnestudo" class="col-sm"><h3 id="h3">Estudos</h3><hr><br><p>Informações de formação, estudos, cursos complementares e especializações.</p>
+						<button class="btn btn-dark" data-toggle="modal" data-target="#clnestudomodal">Confira</button>
+						<div class="modal fade" id="clnestudomodal">
+							<div class="modal-dialog modal-dialog-centered modal-lg">
+								<div class="modal-content">
+									<div class="modal-header"><h5 class="modal-title">Estudos/Formação</h5></div>
+									<div class="modal-body"><table class="table table-hover">							
+										<tr>
+											<th>Curso</th>
+											<th>Instituição</th>
+											<th>Situação</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Técnologo em Análise e Desenvolvimento de Sistemas</td>
+											<td>Universidade Nove de Julho</td>												
+											<td>Em andamento</td>
+										</tr>								
+
+									</table></div>
+									<div class="modal-footer">
+										<button class="btn btn-danger" data-dismiss="modal"><span></span>Fechar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> <!-- Conteúdo esstudo-->
+				</div>
+
+				<div id="coluna1" class="row text-center">	
+					<div id="clncertificado" class="col-sm"><h3 id="h3">Certificados</h3><hr><br><p>Certificados concluídos.</p>
+						<button class="btn btn-dark" data-toggle="modal" data-target="#clncertificadosmodal">Confira</button>
+						<div class="modal fade" id="clncertificadosmodal">
+							<div class="modal-dialog modal-dialog-centered modal-lg">
+								<div class="modal-content">
+									<div class="modal-header"><h5 class="modal-title">Certificados</h5></div>
+									<div class="modal-body"> <table class="table table-hover ">
+										<tr>
+											<th>Certificado</th>
+											<th>Instituição</th>
+											<th>Situação</th>											
+										</tr>
+										<tr>
+											<td>Banco de Dados MySQL</td>
+											<td>B7Web</td>
+											<td>Concluído</td>											
+										</tr>
+										<tr>
+											<td>HTML5 CSS3</td>
+											<td>B7Web</td>
+											<td>Concluído</td>											
+										</tr>
+										<tr>
+											<td>Bootstrap</td>
+											<td>B7Web</td>
+											<td>Concluído</td>
+										</tr>										
+									</table>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-danger" data-dismiss="modal"><span></span>Fechar</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- Conteúdo certificado-->
+
+				<div id="clncursos" class="col-sm"><h3 id="h3">Cursos</h3><hr><br><p>Cursos em andamento.</p>
+					<button class="btn btn-dark" data-toggle="modal" data-target="#clncursosmodal">Confira</button>
+					<div class="modal fade" id="clncursosmodal">
+						<div class="modal-dialog modal-dialog-centered modal-lg">
+							<div class="modal-content">
+								<div class="modal-header"><h5 class="modal-title">Cursos</h5></div>
+								<div class="modal-body"><table class="table table-hover">
+									<tr>	
+										<th>Curso</th>
+										<th>Instituição</th>
+										<th>Situação</th>
+										<th>Nível</th>
+									</tr>
+									<tr>
+										<td>Curso de PHP</td>
+										<td>B7Web</td>
+										<td>Em andamento</td>
+										<td>Avançado</td>
+									</tr>
+									<tr>
+										<td>Curso Javascript</td>
+										<td>Udemy</td>
+										<td>Em andamento</td>
+										<td>Avançado</td>
+									</tr>
+									<tr>
+										<td>Curso Front-end</td>
+										<td>B7Web</td>
+										<td>Em andamento</td>
+										<td>Avançado</td>
+									</tr>
+									<tr>
+										<td>Gestão Ágil com Scrum</td>
+										<td>Udemy</td>
+										<td>Em andamento</td>
+										<td>Avançado</td>
+									</tr>
+
+									<tr>
+										<td>GIT</td>
+										<td>B7Web</td>
+										<td>Concluído</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>Linux Mint</td>
+										<td>Udemy</td>
+										<td>Em andamento</td>
+										<td>Intermediário</td>
+									</tr>
+									<tr>
+										<td>Phyton</td>
+										<td>Udemy</td>
+										<td>Em andamento</td>
+										<td>Básico</td>
+									</tr>
+									<tr>
+										<td>NodeJS</td>
+										<td>Udemy</td>
+										<td>Em andamento</td>
+										<td>Básico</td>
+									</tr>
+									<tr>
+										<td>C++</td>
+										<td>Udemy</td>
+										<td>Em andamento</td>
+										<td>Básico</td>
+									</tr>	
+
+								</table>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-danger" data-dismiss="modal"><span></span>Fechar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="clncontato" class="col-sm"><h3 id="h3">Contato</h3><hr><br><p>Informações para contato.</p>
+				<button class="btn btn-dark" data-toggle="modal" data-target="#clncontatomodal">Confira</button>
+				<div class="modal fade" id="clncontatomodal">
+					<div class="modal-dialog modal-dialog-centered modal-lg">
+						<div class="modal-content">
+							<div class="modal-header"><h5 class="modal-title">Contato</h5></div>
+							<div class="modal-body"><table class="table table-hover">
+								<tr>	
+									<th>Rede</th>
+									<th>Contato</th>
+								</tr>
+								<tr>
+									<td>E-mail</td>
+									<td>arthurfernandes1989@gmail.com</td>
+								</tr>
+								<tr>
+									<td>Linkedin</td>
+									<td><a target="_blank" href="https://linkedin.com/in/arthurfernandes1998">www.linkedin.com/in/arthurfernandes1998</a></td>
+								</tr>
+
+							</table>
+						</div>
+						<div class="modal-footer">
+							<button class="btn btn-danger" data-dismiss="modal"><span></span>Fechar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- Conteúdo contato-->
+	</div>
+	
+	
+	<hr>
+	<h2 id="h2">Conhecimentos:</h2><br>
+	<div id="divcontainer" class="container">
+		<div id="carouselconhecimento" class="slide carousel" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselconhecimento" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselconhecimento" data-slide-to="1"></li>
+				<li data-target="#carouselconhecimento" data-slide-to="2"></li>
+				<li data-target="#carouselconhecimento" data-slide-to="3"></li>
+				<li data-target="#carouselconhecimento" data-slide-to="4"></li>			
+				<li data-target="#carouselconhecimento" data-slide-to="4"></li>			
+				<li data-target="#carouselconhecimento" data-slide-to="4"></li>			
+			</ol>
+
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="assets/imagens/html5.png" class="w-100"/>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/imagens/css3.png" class="w-100"/>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/imagens/bootstrap.png" class="w-100"/>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/imagens/jquery.png" class="w-100"/>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/imagens/js.png" class="w-100"/>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/imagens/sql.png" class="w-100"/>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/imagens/php.png" class="w-100"/>
+				</div>
+				<a class="carousel-control-prev" href="#carouselconhecimento" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#carouselconhecimento" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+		</div>
+		<br>
+		<hr>
+		
+		<hr>
+		<div id="icone" class="icone">
+			<a target="_blank" href="https://linkedin.com/in/arthurfernandes1998"><img src="assets/imagens/linkedin-brands.png"/></a>
+			<a target="_blank" href="https://www.instagram.com/arthfernands_"><img src="assets/imagens/instagram-brands.png"/></a> <!-- Icones de redes sociais -->
+		</div>
+
+	</div>
+
+</div>
+
+</div>
+</div>	
+
+<footer id="rodape" class="rodape">© 2019 Arthur Fernandes</footer>
+
+</body>
+
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
